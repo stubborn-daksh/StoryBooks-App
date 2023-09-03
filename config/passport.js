@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 const User = require('../models/User')
 const passport = require('passport');
 
-const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID_KEY'
-const GOOGLE_CLIENT_SECRET = 'YOUR_GOOGLE_CLIENT_SECRET_KEY'
+const GOOGLE_CLIENT_ID = '851645278283-npasb8l8ragomalkr4dart4gqn0cidsg.apps.googleusercontent.com'
+const GOOGLE_CLIENT_SECRET = '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'
 
 module.exports = function(passport){
     passport.use(new GoogleStrategy(
